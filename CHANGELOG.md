@@ -6,6 +6,7 @@ sha256: `7bcfe6574741b45d4985fd5fef8ad65685308aacf7a1d6acfe80840aefd2434f`
 #### Fixes
 * Replaced `or`s with `||`.
 * Updated Discord tag.
+* Corrected credits.
 
 ## v1.4.3.0
 24.09.2022

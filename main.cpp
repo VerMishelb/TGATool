@@ -45,7 +45,12 @@ void PrintHelp() {
 		"-k, --keep - TGATool window won't close after finishing the task.\n"
 		"--folder [path] - Override the output folder path.\n"
 		"--omit-prefix - Don't add _c _f, overwrite the original file.\n"
-		"Credits:\nVerMishelb (Discord: vmlb) - Coding, idea.\nFrancis - Motivation, idea (they didn't know I already planned it lol)\n\n"
+		"Credits:\n"
+		"VerMishelb (Discord: vmlb) - Coding, idea.\n"
+		"Francis - Motivation, idea (they didn't know I already planned it lol)\n"
+		"Jade - Help with the CIU TGA format.\n"
+		"Partially based on https://aluigi.altervista.org/bms/chicken_invaders_tga.bms\n"
+		"\n"
 	;
 }
 
