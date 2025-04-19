@@ -1,7 +1,7 @@
 # Changelog
 ## v1.4.3.1
 19.04.2025
-sha256: `7bcfe6574741b45d4985fd5fef8ad65685308aacf7a1d6acfe80840aefd2434f`
+sha256: `433f699ff92968f3c0366707ae86ab74d7306f4cc526b4b13e3d0426990cfc53`
 * The first GitHub release. Functionally identical to 1.4.3.0.
 #### Fixes
 * Replaced `or`s with `||`.
