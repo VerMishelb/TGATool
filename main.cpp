@@ -1,7 +1,7 @@
 /**
  * TGATool v1.4.3.1, 19.04.2025
  * A tool for converting CIU TGA files to readable format and back.
- * Copyright © 2022-2025 VerMishelb <vermishelb535@gmail.com>. All rights reserved.
+ * Copyright © 2020-2025 VerMishelb <vermishelb535@gmail.com>. All rights reserved.
  * Licensed under the Apache License, Version 2.0. Please refer to the "LICENSE" file or an online copy.
 */
 
