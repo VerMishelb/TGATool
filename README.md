@@ -10,6 +10,6 @@ Copyright © 2020-2025 VerMishelb <vermishelb535@gmail.com>. All rights reserved
 Licensed under the Apache License, Version 2.0. Please refer to the "LICENSE" file or an online copy.
 
 # Credits
-Francis - Motivation, idea.
-Jade - Help with the CIU TGA format.
-Partially based on https://aluigi.altervista.org/bms/chicken_invaders_tga.bms
+Francis - Motivation, idea.  
+Jade - Help with the CIU TGA format.  
+Partially based on https://aluigi.altervista.org/bms/chicken_invaders_tga.bms  
