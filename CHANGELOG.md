@@ -1,8 +1,29 @@
 # Changelog
+## v1.4.4.1
+00.00.2025
+sha256: ``
+* [*] Recognises the image flip bit again to make the output consistent across different apps (e.g. Krita which sets it to 1).
+* [-] Added monochrome conversion option from UVE Preload splitter to eliminate the 2nd app if you only need to read the image. Though, you should use the splitter for most textures anyway because it's handy.
+
+## v1.4.4.0
+12.06.2025
+sha256: `a9b5b4066906d70f419871cd5b3b2e52baade319a01a47313409a71a544eab5b`
+* Moved to C++23 (previously used C++17) and std::print, which is the only way to successfully print UTF-8 text to the Windows 7 command prompt.
+* Added clang-format.
+#### Changes
+* Sane UTF-8 support for Windows command prompt. Please report weird or incorrect behaviour, especially on older systems.
+* Reworked pauses.
+    * -k flag is no longer accepted for exe name arguments, use --keep instead. -k still works as a regular argument if you run TGATool via a shortcut.
+    * New pause default behaviour (flag --keep-on-error): the window automatically closes on success and remains if there were errors.
+    * New flag --no-keep which removes the pauses completely. Can be used for calling TGATool from other apps.
+#### Fixes
+* Fixed RLE check not being treated as an error.
+
 ## v1.4.3.1
 19.04.2025
 sha256: `433f699ff92968f3c0366707ae86ab74d7306f4cc526b4b13e3d0426990cfc53`
 * The first GitHub release. Functionally identical to 1.4.3.0.
+* Project was moved to CMake instead of the VS solution.
 #### Fixes
 * Replaced `or`s with `||`.
 * Updated Discord tag.
@@ -16,7 +37,6 @@ sha256: `0765ccb32d2ceb57829b2261c62e09b4083bb61768b370d13c6a1070f7c02f7e`
 #### Fixes
 * Fixed 8 bit TGAs not having 8 bits of alpha in the header.
 * Conversion from regular TGA to CIU now removes any unnecessary data, like the footer.
-
 
 ## v1.4.2.1
 28.08.2022

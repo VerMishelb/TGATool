@@ -1,0 +1,10 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+DerivePointerAlignment: true
+PointerAlignment: Right
+ColumnLimit: 100
+# SortIncludes: Never
+AllowShortBlocksOnASingleLine: Always
+AllowShortEnumsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: WithoutElse
+IndentPPDirectives: BeforeHash
