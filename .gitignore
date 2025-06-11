@@ -35,6 +35,7 @@
 ~$*
 
 *.vcxproj*
+/.vscode
 
 /build/
 /Release/
